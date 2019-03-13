@@ -18,7 +18,7 @@ cd spring-boot-java-rest-api-secure-archetype
 ```
 mvn archetype:generate \
     -B -DarchetypeGroupId=io.github.sivalabs.maven.archetypes \
-    -DarchetypeArtifactId=spring-boot-java-rest-api-archetype \
+    -DarchetypeArtifactId=spring-boot-java-rest-api-secure-archetype \
     -DarchetypeVersion=0.0.1 \
     -DgroupId=com.mycompany \
     -DartifactId=myapp \
@@ -41,11 +41,11 @@ Create or update archetypes and set version to SNAPSHOT (ex: 1.0.0-SNAPSHOT)
 
 Deploy SNAPSHOT version to https://oss.sonatype.org/content/repositories/snapshots/
 
-`spring-boot-maven-archetypes> mvn clean deploy`
+`spring-boot-java-rest-api-secure-archetype> mvn clean deploy`
 
 Deploy release version to Maven Central
 
 ```
-spring-boot-java-rest-api-archetype> mvn release:clean release:prepare
-spring-boot-java-rest-api-archetype> mvn release:perform`
+spring-boot-java-rest-api-secure-archetype> mvn release:clean release:prepare
+spring-boot-java-rest-api-secure-archetype> mvn release:perform`
 ```
